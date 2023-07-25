@@ -7,8 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "log"
+    "log","logger","console"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishaaxl/consoletoast"
+  },
   "author": "vishal",
   "license": "ISC"
 }
