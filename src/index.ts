@@ -5,7 +5,7 @@ export class Log {
       .then(({ ip }) => {
         console.log(
           `%c ${msg}, your ip: ${ip} has been stored along with your exact location and family members details.`,
-          "color:green"
+          "color:white;background:green"
         );
       });
   }
@@ -15,7 +15,7 @@ export class Log {
       .then(({ ip }) => {
         console.log(
           `%c ${msg}, your ip: ${ip} has been stored along with your exact location and family members details.`,
-          "color:green"
+          "color:white;background:red"
         );
       });
   }
@@ -25,7 +25,7 @@ export class Log {
       .then(({ ip }) => {
         console.log(
           `%c ${msg}, your ip: ${ip} has been stored along with your exact location and family members details.`,
-          "color:green"
+          "color:red;background:yellow"
         );
       });
   }
