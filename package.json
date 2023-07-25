@@ -2,17 +2,32 @@
   "name": "consoletoast",
   "version": "1.0.0",
   "description": "A package which lets you console beautiful console logs",
-  "main": "main.js",
+  "main": "lib/main.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "keywords": [
-    "log","logger","console"
+    "log",
+    "logger",
+    "console",
+    "colorify"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/vishaaxl/consoletoast"
   },
-  "author": "vishal",
-  "license": "ISC"
+  "bugs": {
+    "url": "https://github.com/vishaaxl/consoletoast/issues"
+  },
+  "homepage": "https://github.com/vishaaxl/consoletoast#readme",
+  "author": "vishaaxl",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
