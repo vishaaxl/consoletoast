@@ -1,8 +1,8 @@
 {
   "name": "consolecolortoast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package which lets you console beautiful console logs",
-  "main": "lib/main.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
