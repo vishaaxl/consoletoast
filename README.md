@@ -3,7 +3,7 @@
 ### Usage
 
 ```
-import { Log } from 'consoletoast';
+import { Log } from 'consolecolortoast';
 
 
 Log.success('Congratulations!');

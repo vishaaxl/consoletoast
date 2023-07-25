@@ -1,5 +1,5 @@
 {
-  "name": "consoletoast",
+  "name": "consolecolortoast",
   "version": "1.0.0",
   "description": "A package which lets you console beautiful console logs",
   "main": "lib/main.js",
